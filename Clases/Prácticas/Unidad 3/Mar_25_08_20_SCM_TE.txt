@@ -1,0 +1,26 @@
+TP 6: Se debe programar 1 US. Se entrega el 8/9. 
+Deben leer el doc asociado para implementar las buenas practicas. De no hacerlo
+puede quedar desarpobado.
+
+TP 4: Entregarse el 1/9. Gestión de configuración.
+Armar 1 doc, alli especificar los IC asociados a los elementos del
+curso de ISW. Determinar reglas de nombrado. Ruta dentro del depósito.
+La estructura debe brindar soporte durante toda la materia.
+Armar 1 estructura de directorios.
+Definir criterios para crear las lineas base. Debe estar explicitado
+en 1 doc de texto. Es 1 IC tamb. Debe estar dentro del repositorio.
+
+DEBE ser usado de forma sostenida durante el cursado hasta el final
+del curso. Mantener el repositorio.
+
+Al final de cuatrimestre se otorga 1 nota segun el uso del repositorio.
+Y si se han creado las lineas base en el momento en que se dijeron que se
+iban a crear.
+
+
+
+Los PO son los profes del práctico, cualquier cosa consultar por el
+foro.
+
+Las lineas base no estan atadas solo a releases. Sino a 1 P de control
+de cambios.
