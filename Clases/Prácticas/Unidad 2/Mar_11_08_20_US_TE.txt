@@ -1,0 +1,19 @@
+Vemos US.
+
+Yo como ROL quiero HACER TAL COSA para CONSEGUIR VALOR DE NEGOCIO
+
+Si 1 US no tiene valor de negocio es muy probable que desaparezca porque no se condidera algo que aporte valor.
+
+Para las pruebas de usuario
+Formato:
+PROBAR [FRASE VERBAL] ESCENARIO (pasa | falla)
+
+Nos vamos en centrar en Identificar Roles, Criterios de Aceptación y Pruebas de Aceptación.
+
+Los CP deben utilizar el verbo del título de la US.
+Se debe especificar los DA que se ingresaran para el registro en los CA para despues jugar con ellos en las PA.
+
+Cada US debe contemplar 1 único valor de negocio, si no es asi se DEBE dividirla en otras US, como por ejemplo esto de dividir las notificaciones
+de Libre y Ocupado como diferentes US.
+Como es 1 funcionalidad chiquita la notificacion y el cambio de estado se pueden juntar (1 para libre y otra para ocupado).
+

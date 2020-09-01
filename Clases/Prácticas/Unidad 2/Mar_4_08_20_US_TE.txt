@@ -1,0 +1,61 @@
+Agile no solamente se aplica al desarrollo de SW sino a las gestión de proyectos en general (como proyectos gubernamentales)
+
+En 1 principio este principio parecia dar resultados óptimos pero a la hora de llevar al desarrollo de SW no tuvo mucho éxito (PE: el presupuesto
+no se respetaba, se  demoraba mucho en entregar SW)
+
+1 grupo de gente se juntó para poder definir esta metodología. Fowler dice que ser agil es establecer un compromiso entre tener poco P y demasiado P.
+En los PD no hay muchos grados de libertad (existe 1 procedimiento), seguir 1 esquema duramente definido. los PE trabajan con la EXP que se obtiene 
+durante el desarrollo.
+
+La metodologia agil es 1 PE, está relacionado con ese concepto. Los PE utilizan los resultados de cada 1 de sus ejecuciones para realimentar el P cosa
+de consguir 1 mejora continua.
+
+El principal riesgo que tiene este P depende directamente de lo que hallamos construido. Lo que aprendamos de 1 P de desarrollo particular no va a poder
+ser generalizable para otro tipo de P de desarrollo, no va a poder ser generalizado fácilmente.
+Este grupo de gente da 4 valores a tener en cuenta en la metodología Agil. No necesariamente quiere decir que alguno de los 2 es bueno y malo. Sola
+mente quiere decir que a la hora de usar la metodología va a ser preferible darle importancia o valorar + a los conceptos que se exponen como buenos
+y no darle tanto valor a los que se tildan como malos.
+
+2do valor: si vamos a documentar, pero tiene que existir 1 documentación que agregue valor al producto (1 documentación minima y necesaria que de
+valor al cli). No darle tanta importancia a la documentación extensiva. Siempre vamos a valorar mas a tener el producto desarrollado por sobre 
+la documentación.
+
+3: Antes de ponernos a discutir sobr e1 contrato previamente definido en el que se restringen varias cosas vamos a preferir el diálogo (negociar y
+discutir) para conseguir el OBJ junto con el cli.
+
+4: En el P de desarrollo de SW podemos tener cambios todo el tiempo, el cambio surge de 1 necesidad, nosotros vamos a valorar mas el poder responder
+a esa necesidad antes de que nos mantengamos con 1 plan.
+
+Todos los valores están interrelacionados y los principios son la base del manifiesto ágil.
+
+Si sabemos que hay 1 parte manifiesta y 1 no manifiesta, entonces propiciemos la no manifiesta para que nos ayude a comunicarnos.
+
+8: propiciar el desarrollo prolongado.
+9: si bien hay que hacer rápido se exige calidad que recae en la excelencia técnica.
+11: el arquitecto estaba desconectado de los desarroladores, en este caso las arquitecturas, DI y REQ van a surgir de equipos auto organizados y 
+tamb van a estar sujetos a cambios.
+
+Ser ágil no es una metodologia es 1 filosofia (valores y principios) que luego se van a implementar en 1 metodología particular como SCRUM.
+Valores de los equipos ágiles (6).
+
+Los metodos ágiles son adpatables en lugar de predictivos y adaptados a la gente en lugar del trabajo.
+Algunos métodos ágiles: SCRUM, XP, Kanbas. Tienen 1 conjunto de prácticas definidas como metodología que ya ha funcionando en casos anteriores.
+Hacer entregas frecuentes, donde cada porción tiene valor.
+Técnicas efectivas (las vemos cuando demos scrum) son 5.
+
+Cuando es aplicable Agile?.
+No sabemos que tenemos que hacer y No sabemos como lo tenemos total: hay 1 incerteza absoluta.
+Dentro del contexto COMPLEX la metodologías ágiles funcionan mejor.
+Mantenimiento cae en simple...
+
+Buena app de metodologías ágiles: 1 plan adaptativo y basico, 1 AR adaptativa y basica.
+
+Acompañamiento del equipo de desarrollo con el cli para que no haya sorpresas a la hora de la entrega.
+
+Triángulo de Hierro: Costo, t, Alcance. La modificacion de algunas de estas aristas va a implicar 1 impacto en las otra.
+Triángulo ágil: calidad (calidad intrínseca) y valor (calidad extrínseca).
+Triángulo ágil Modificado.
+
+Lo que se busca con esto es 
+
+4 7 8 9

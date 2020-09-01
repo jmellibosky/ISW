@@ -1,0 +1,54 @@
+Vamos a ver estimaciones de US y MVP
+
+Hay 1 metodo que se llama... Pocker plannig
+Una vez explicada la estimación vamos a estimar las US del TP3. La idea es identificar cuales de las US redactadas formarian el MVP y porque
+creemos que formamos el MVP.
+
+------------- Clase
+
+Para medir el tamaño de una US usamos US Points (USP).
+Toma en cuenta 3 factores:
++ COmplejidad
++ Esfuerzo
++ Duda
+
+Debemos medir estas 3 cosas para ver el tamaño de 1 US.
+Para medir el tamaño usamos N°, talles, Serie de 2^n o Fibonnaci ( no usa N° mayores a 13)
+
+Velocidad ----> Es una medida del progreso del equipo. Cuantos USP hace cada equipo en una iteración.
+
+Propuesta de metodo estimacion:
+
+hay muchas, pero usamos pocker planning que usa los N° de Fibonnaci. Si el puntaje es 13 y la duda es demasiado alta no se va a poder dividir.
+A nivel practico estos metodos son heurísticas no reglas por la metodologia agil que se usa. No es necesario memorizarla.
+
+Prerrequisitos
++ Lista de US
++ Mazo de cartas para cada estimador
+
+Pasos
+
++ Estimar la US canonica (origen) y vamos a comparar esa US con todas las demás. La estimamos y vamos a decir: "esta es 2 veces + compleja", etc.
+Se intenta que no sea demasiado grande. Que tenga la menor duda posible y se bbusca que sea relativamente chico. Paara poder estimar la complejidad
+con las demas US.
++ Los estimadores discuten la US
++ Cada estimador pone la carta boca abajo en la mesa
++ Cuando todos pusieron las cartas, las mismas se exponen al mismo t
++ Si todos los estimadores seleccionan el mismo valor, ese es el estimado. Sino se discuten los resultados poniendo atencion en los mas altos
+y bajos.
++ Proxima US
++ Cada estimador asigna a la US un valor por comparación contra la base US. "Cuan grande/compleja/pequeña y riesgosa es esta US con la US
+canonica."
+
+Los que eligen las estimaciones son los equipos de desarrollo.
+LA canonica es la unidad de medida con la que vamos a estimar las US.
+
+Actividad ------> Usar Poker Plannig sobre las US del TP3, justificar la canonica y aplicar poker planning a cada US. La justificación del esfuerzo
+debe estar al lado de la estimación.
+
+Esfuerzo, Complejidad e Incertidumbre
+
+Para mi requiere 1 esfuerzo alto porque... ya implemente la TEC y requiere pocos campos validados. 
+
+MVP ---> producto minimo viable. Tomamos el caso del delivery y determinamos el minimo subconjunto con el que pondriamos armar el MVP. Justificamos
+porque consideramos porque son minimas esas US en contra de los que no lo son y alcance del producto para hacer viable el producto.
