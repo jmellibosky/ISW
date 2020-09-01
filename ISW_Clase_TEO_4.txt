@@ -1,0 +1,112 @@
+El PO prioriza las US en el Product BackLog.
+ Porciones verticales: GUI, Logic, BD.
+
+Al plantear la US, No estan obligatoriamente citados (los CA) en la sintaxis de la US (osea En su definicion).
+Las US son lo unico que nos cuenta lo que se necesitan.
+Lo que expresams en la US es una guía.
+Los CA son aquellas cosas que necesitamos implementar para asegurar la funcionalidad necesaria de la que nos habla la US.
+Entonces, de 1 CA puedo sacar n PA.
+PE de PA: Ingresar 1 num entero de 5 digitos.
+
+Los CA nos definen los limites de la implementación de la US, lo que se considera bien y lo que no se va aaceptar, De manera tal que sea identificable para el PO
+, que pueda verificar lo que expone
+
+La importancia dentrro de las MET A que tienen las PA, es que contienen todos los detalles (que antes tenian la doc detallada) para simular la ejecución de 1 S. En el ambiente Ágil
+es se trata de poner el detalle en las PA, y tratar de automatizarlas. Estas PA van a ser ahora la doc detallada, en ellas y en los CP se va a ver reflejada los RTO.
+Cuantas PA vamosa construir ? depende del testing.
+
+Las PA deben contemplar escenarios negativos y positivos. ( 1 caso negativo es 1 PA que espero que no pase)
+Cuidado: las PA son las que se van a ejecutar al momento de presentación del Producto al PO. Si pones muchas se hace engorroso si hay pocas puede ser
+que no se verifique del todo la funcionalidad.
+En el parcial se escriben minimo las PA posi y nega.
+
+Definicion de Hecho (DOne)
+
+Las US esta contenida en el PB (Product backlog), en 1 momento se elige 1 para entrar en 1 iteracion, se desarrolla y la termina, cuando la termina puede empezar a desarrollar.
+Tenemos 2 criterios para la US, cuando esta en condiciones para entrar a la iteración (Ready) y cuando esta en condiciones de decir que esta terminada (Done).
+
+Ready: lista para ser desarrollada segun el criterio del equipo
+DOne: US terminada
+
+INVEST model
+
+Es 1 acrónimo, se usa para construir la definicion de Ready, nos ayuda a evaluar la calidad de las US que definimos. Este MOD me dice de base si la US esta lista o no para entrar
+a la iteracion, si esta lista para ser desarrollada.
+
+I: Implementable en cualquier orden y calendizable, no necesita de otra US para ser construida
+N: debe estar escrita en terminos de 1 necesidad y no lo que quiero que se use ( 1 SOL) para resolver la US. Expresar el Que necesito, no el COMO debe resolverlo
+
+Los CA pueden contener RF, pero se denominan RESSTRICCIONES, son cosas que se deben tener en cuenta a la hora de implementar la US. El COMO son decisiones de como voy a resolver la problematica, pe:
+hacer 1 funcionalidad con accesibilidad, nos dice 1 poco el como se va a hacer PERO va a ser 1 necesidad NEGOCIABLE entre todo el equipo.
+V: no te voy a aceptar 1 US si no aporta valor al cliente o valor de negocio
+E: cts que me dice, que peso o valor le pueod asignar a la implementación de 1 US pparticular.Los criterios de estimación se ven el práctico. SI no se puede estimar, no cumple el criterio de INVEST. Si no se cumple 
+esta US no está lista para ser implementada.
+S: bastante relativa. No se aceptan trabajos a medias (58% de implementacion), debe poder ser implementada en 1 iteracion. Entonces la US debe tener un tamaño acorde a su desarrollo, esto depende del t de 1 iteración, del ritmo de trabajo.
+Debe de poder entrar en 1 iteración.
+T: Importante definir los CA y PA para ver si se puede verificar la funcionalida de 1 US. Demostrar que lo que se implemento anda.
+
+Los criterios de ready y done son definidos por cada equipo. PE: 1 US debe tener 2 prototipo. Esas cosas en la Definition on Ready. Normalmente es 1 check list en el que todo el mundo lo ve. El Definition of Done es lo mismo: se hicieron Pruebas?, 
+la doc asociada esta construida?, etc.
+
+Niveles de granularidad de Abstraccion de US.
+
+Themes, Epic, US. Describen los items del PB. 
+El foco es como se configura el producto.
+El PB tiene elementos que tienen diff nivles de granularidad. Si 1 cts del Producto es muy grande o tiene 1 nivel de complejidad grande a eso se le llama Épica.
+Su desarrollo es relativo al tam. de equipo, tam de iteracion, etc.
+El TEMA es un elemento que agrupa US.
+
+Los elementos de + arriba son aquellos que estan mas priorizados por el PO. Es claro que si es 1 épica se puede dividir. Las US que surgen de la épicas, si estan bien hechas son independientes entre si NO dependientes.
+Pe de Épica: Buscar destino por coordenadas, por calle, por numero, por 1 calle y 1 num. CUalquiera de esas US podria ser implementada 1ro.
+Ej: mezclar 1 US de registrar cidudades con Buscar destino no deberia darse, la US deberia evaluarse con 1 mockup de las ciudades.
+
+Spikes
+
+Pueden estar en el PB. SOn Historis que tienen tanto nivel de incertidumbre que no las puedo estimar (si se va  apoder construir, si se va a poder probar, cuanto t me demorare en construirla)
+Hay algun aspecto de negocio sin definir que hasta que el cliente no lo tiene bien definido. En donde no se como hacer algo y necesito investigarla.
+Debo incluirla en 1 iteración para que alguien se ocupe de la investigación, y recien cuando cumpla el criteriod de ready la pueda implementar. Muchas veces es 1 US.
+Escribo sus CA, y al hacer la PA me doy con que no puedo hacerlo.
+Esta identificada, tiene 1 nivel de granularidad pero no puede ser implementada. Queda como 1 tarea de investigacion hasta que se tengan definiciones necesarias para poder avanzar.
+El entregable de 1 spike puede ser 1 prototipo muchas veces.
+Condicion que no nos permite avanzar en la entrega funcional de producto.
+
+Entonces puede haber en el PB: Epicas, US, Temas, Spikes y defectos. Cada 1 puede tener 1 color asignado segun el equipo.
+
+COnsideraciones: siempre hay 1 parte de la US que es riesgosa, cuando estima hay 1 P() de... hacer algo. Siempre esta el riesgo presente.
+
+Las decisiones se toman al final y comienzo de cada iteración, son sobre la marcha, no como las MET F.
+Las US no son especificaciones detalladas de RTO, son expresiones de lo que se necesita.
+
+Porque creamos Producto?
+
+La idea del producto es lograr valor de negocio y su justificacion esta en 1 de las 4 que se ven.
+Paretto: el 80 del valor del producto se ubica en 1 20 del producto
+El U deebe sentirse comodo cumpliendo sus OBJ a traves del Producto. La expectativa es que el producto llegue a ser significativo, es significativo
+cuando cambia la vida del cliente.
+Whatsapp: Ese es 1 producto que hizo incapie en las necesidades de la gente.
+
+Creacion de productos:
+
+Idea -> Vision ( si hay 1 apoyo estrategico, sesiones que me ayuden a armar mi 1er PB) nos da --> el PO hace 1 priorizacion del PB --> 1era version o beta, sale al mercado con 1 funcionalidad limitada ( esto nos los da la planificacion de realease)
+Cuantas iteraciones necesitare para planificar la version de cada release. ---> En base a la triple restriccion voy a seguir planeando las iteraciones.
+
+En la planificacion de release voy a ver cuantas iteraciones voy a necesitar para desarrollar 1 release del producto. Para planearla necsito 1 PB. Planifico cuantas sprint necesito para conformar las
+releases funcionales del prducto.
+Cada Sprint Back Log tiene tareas (cubitos verdes) y marca como se hará la sprint.
+
+Valor vs Desperdicio
+
+MVP: producto mínimo viable, quiere decir que el 1er ntregable debe tener la minima Q de funcional, las sfucientes para testear el producto en el Mercado y tenerlo lo + rápido posible para ver
+si el publico al que va destinado esta conprometido a consumirlo. La palabra cables es Testing --> realimentacion, si nos da un SI voy a destinar RE a mejorar el producto ( cuanto t ?, Años, PE: word)
+Esta idea de gestión de producto es la que se debe manejar. Hay muchas herramientas que nos ayudan o encaminan a seguir estos lineamientos.
+
+Variantes de este concepto:
+MRF: Cts minimas de version. tiene que ver con la funcionalidad, lo minimo que debe tener para "caminar solito"
+MMF: cts minimas de marketing (comercializacion del produto). Minimo que debe tener el producto como marketing para poder salir a venderlo. Muchas veces compite con el MVP. Es 1 custion de comercialización
+la que se trata. Muchas veces es el + rápido puesto que busca 1 SA en el Mercado.
+
+Conclusion: partimos de 1 versión del producto y se toma como base para definir las distintas releases del producto. EL 1er Release es en donde se ubica el MVP. Ese release me va a poder dar resultados.
+
+Ir leyendo -----> GUIA DE SCRUM
+
+Prox clase usamos tarjetas para poder hacer ejercicios de estimación de las US.

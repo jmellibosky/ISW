@@ -1,0 +1,135 @@
+28/7/20
+
+3 trabajos conceptuales y TP ( Son Grupales).
+
+1 TP hecho en 1 repositorio.
+
+No hace falta conclusion, introduccion , ni indice en los TP puesto que no aportan valor.
+
+En los TP Conceptuales SI son necesarios todas esas cosas [Meles].
+
+///////////////////////// TEORICO //////////////////////////////////////////
+
+Existen 3 tipos de SW:
+
++ S de SW
++ Utilitarios
++ SW de APP
+
+El SW es un set de PA y la documentacion que acompaña. El SW es I que se presenta en distintos niveles de abstracción, es inherentemente complejo
+debido a su situacion de no ser tangible.
+
+Libro recomendado: "Las alas no son e plata".
+
+No se debe comparar el SW con la manufactura. Meles da 5 razones de porque.
+Se deben generar unidades de gestion para la construcción de SW (Incluidas en 1 proyecto) en lugar de lineas de producción en masa.
+El jueves repasamos las CTS de 1 proyecto.
+
+Libro: "The Mythical man-month".
+
+Al 1er parcial va algo del pdf "no silver bullet".
+
+U4 y U3 tienen que ver el libro "Managing the software process".
+
+"La mayoria de los SW que se han desechado ha sido por problemas en el tratamiento de los RTO".
+
+CMM: MOD de madurez y capacidad. Reune opiniones de empresas de SW que han tenido mucho éxito desarrollandoló con proyectos grandes. Luego se
+fueron actualizando. Define lineamientos que debe tener 1 EMP para desarrollar SW de calidad.
+
+La SEMANA que viene vemos el manifiesto ágil.
+
+Lean es una filosofía para encarar trabajos adaptado al desarrollo de SW (Canvan PE), despues tambien hay combinaciones entre Lean y Agil.
+
+... Problemas asociados al desarrollo de SW:
+
+Si el SW se usa, evoluciona, si evoluciona debe dársele mantenimiento y esto cuesta. El desarrollo de SW es una actividad crítica.
+Los problemas que pueden a llegar a tener los productos de SW no son totalmente debido a la mala programación sino de otras cuestiones que muchas
+veces no son tenidas en cuenta para un tratamiento adecuado durante el desarrollo de SW.
+
+El SW es una construcción que involucra muchas personas y que conlleva multiples versiones de SW.
+
+///////////////////////////////// 
+
+Cuerpo de conocimientos de la ING de SW. Está conformada por 15 áreas de conocimiento.
+La intencion de la materia es hacer foco en disciplinas de SW que aún no conocemos.
+
+Disciplinas técnicas: Prueba
+Disciplinas de gestión: (son transversales al proyecto, lo abarcan a lo largo de su desarrollo): Planificacion de proyecto y Monitoreo y control de Proyectos
+Disciplinas de soporte: Gestion de config de SW, y 2 mas.
+
+El P de SW transforma RE con el trabajo de Gente en un producto de SW.
+Sus actividades varian segun la ORG y filosofía de desarrollo utilizada.
+
+P de SW: 1 conjunto de actv., métodos, prácticas, y transformaciones que la gente usa para desarrollar o mantener SW y sus productos asociados.
+(SW-CMM).
+
+P: secuencia de pasos ejecutados para 1 propósito dado (IEEE). 
+
+La TENDENCIA es hacer SW para facilitar el trabajo de las personas.
+Nosotros vemos Enfoque de gestión Empírico.
+La diff es que los P definidos (como el PUD o RUB) tienen entradas, actividades y salidas bien definidas para el desarrollo de SW. Utilizado para 
+contrarrestar el trabajo artesanal del SW como resultado se desarrollo 1 estándar para tener algo de previsibilidad en el desarrollo y asi tener
+como base 1 P certificado que me asegurará como resultado 1 Producto con cierto nivel de certifiación asociada al P definido.
+
+No hay 1 herramienta definitiva que me aseguré una SOL frente a la complejidad de SW. No se deben descartar los 2 tipos de P.
+
+EN cambio los empíricos me explican como hacer todo de una forma no definida cuyas salidas son no previsibles. Basados en la EXP. Intentan que el 
+equipo plantee la forma en la que se va a desarrollar el Sw. En base a las herramientas, Conocimientos y EXP para definir un propio P de desarrollo
+de SW basado en la retroalimentación de las EXP obtenidas en cada pasa que se durante el desarrollo.
+
+Asume P complicados con variables cambiantes. Cuando se repite el P se pueden llegar a obtener diff SA.
+La ADM y ctrl es através de inspecciones frecuentes y adaptaciones.
+Son P que trabajan bien con P creativos y complejos.
+
+No se pueden realizar previsiones correctas acerca del P de SW que se busca desarrollar, los P empíricos pueden ser utilizados para este tipo de
+desarrollo.
+
+Los PE se basan en esto, empezar con algo lo más rápido posible para obtener algo y si le pegue o no re-adapto lo que estoy haciendo para encaminar
+el desarrollo. Si a lo que llegue me sirve, lo formalizo y lo publico, de esa manera voy desarrollando buenas prácticas que van siendo aplicadas
+en diff tipos de desarrollo.
+
+Los PD dicen que la EXP de 1 equipo se puede extrapolar al P de desarrollo de SW. En cambio los PE dicen que esto no puede pasar, la EXP debe acom
+pañar el desarrollo de SW para lograr lo que estoy buscando. Cada concepto maneja filosofías diff.
+
+Ciclo de Vida o MOD de P: Es 1 serie de pasos a través de los cuales el P o proyecto progresa.
+Nos proveen 1 descripción gráfica del P ( de su inicio y su evolución) desde 1 perspectiva
+particular.
+Los P tienen su ciclo de vida y los proyectos tamb.
+
+El ciclo de vida del Producto es + grande que el del proyecto. El Proyecto existe hasta obtener 1 versión funcional del Producto, la cual se lanza.
+Luego si el producto necesita actualizarse yo comienzo un nuevo poryecto para hacerle mantenimiento y largo la nueva versión funcional, y asi sucesivamente
+esta es la relación entre el Ciclo de vida del Producto y del Proyecto.
+
+No es los mismo ciclo de vida que el P. El ciclo de vida me dice la forma de ir desarrollando el proyecto.
+
+Los PE solo aceptan ciclos de vida del tipo ITERATIVO/INCREMENTAL. Los PD pueden utilizar todos los demás (Secuencial (cascada), Recursivo, Iterativo).
+
+"No es lo mismo proyecto que P, P que ciclo de vida, ciclo de vida con Proyecto, usen terminos técnicos".
+
+
+Agil suele comparar el Ciclo en cascada (Como malo o lento, cuya realimentacion se consigue al final y tamb la EXP) contra el Iterativo (Lo bueno y rápido).
+Los ciclos de vida son muchos y estan numerados en "Rapid Development".
+
+
+Tarea:
+
+¿Que ciclos de vida conocen?
+El iterativo, incremental y cascada
+
+¿Que relación hay entre P de desarrollo y ciclos de vida?
+Que los P de desarrollo nos definen las herramientas a utilizar, actividades a realizar y pasos a seguir para el desarrollo de productos SW de manera que
+todos estos conceptos pueden ser representados por medio de 1 ciclo de vida específico que se amolde a 1 de P desarrollo particular, especificando las fases
+por las que transitará el P y el Orden de cada 1 de las fases.
+
+¿Hay más ciclos de vida ?
+
++ Cascada
++ Espiral
++ Código y correción
++ Cascada Modificado
++ Prototipo Evolutivo
++ DI a Herramientas
++ Entrega por Etapas
++ DI a Horario
++ Entrega Evolutiva
++ SW comercial listo para usar
