@@ -261,6 +261,26 @@
         </div>
     </div>
 
+     <!--campo FechaVencimiento-->
+     <div class="form-group row" *ngIf="seleccionPago == '2'">
+        <label class="col-form-label col-sm-2 col-sm-offset-2">Fecha de Vencimiento</label>
+        <div class="col-sm-6">
+            <input class="form-control"
+                        name="FechaVencimiento" formControlName="FechaVencimiento"
+                        [ngClass]="{'is-invalid': (FormReg.controls.FechaVencimiento.touched || submitted)  
+        && FormReg.controls.FechaVencimiento.errors}" />
+            <span class="text-danger" *ngIf="(FormReg.controls.FechaVencimiento.touched || submitted) 
+                    && FormReg.controls.FechaVencimiento.errors?.required">
+                Dato requerido.
+            </span>
+            <span class="text-danger" *ngIf="(FormReg.controls.FechaVencimiento.touched || submitted) 
+                    && FormReg.controls.FechaVencimiento.errors?.pattern">
+                Dato fecha, formato MM/AAAA.
+        </span>
+        
+            </div>
+        </div>
+
     <!--campo Cvc-->
     <div class="form-group row" *ngIf="seleccionPago == '2'">
         <label class="col-form-label col-sm-2 col-sm-offset-2" for="Cvc">
@@ -319,7 +339,7 @@
             </span> -->
             <span class="text-danger" *ngIf="(FormReg.controls.Recepcion.touched || submitted) 
                     && FormReg.controls.Recepcion.errors?.pattern">
-                Dato fecha, formato dd/mm/aaaa.
+                Dato fecha, formato DD/MM/AAAA.
         </span>
         
             </div>

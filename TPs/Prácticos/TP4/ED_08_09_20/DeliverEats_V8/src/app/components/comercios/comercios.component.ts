@@ -96,15 +96,23 @@ export class ComerciosComponent implements OnInit {
             "(0[1-9]|[12][0-9]|3[01])[-/](0[1-9]|1[012])[-/](19|20)[0-9]{2}"
           )
         ]],
+      FechaVencimiento: [
+          "",
+          [
+            Validators.required,
+            Validators.pattern(
+              "(0[1-9]|1[012])[-/](19|20)[0-9]{2}"
+            )
+          ]],
       OpPago: ["", [Validators.required,  Validators.minLength(4), Validators.maxLength(55)]],
       NumTarjeta: ["",
       [Validators.required, Validators.pattern("[0-9]{13}")]],
       NombreTitular: [
         "",
-        [Validators.required, Validators.pattern("^[a-z]{4,55}$")]],
+        [Validators.required, Validators.pattern("^[A-Za-z _]*[A-Za-z][A-Za-z _]*$")]],
       ApellidoTitular: [
         "",
-        [Validators.required, Validators.pattern("^[a-z]{4,55}$")]],
+        [Validators.required, Validators.pattern("^[A-Za-z _]*[A-Za-z][A-Za-z _]*$")]],
       Cvc: ["", [Validators.required, Validators.pattern("^[0-9]{3}$")]],
       HoraEntrega:["", [Validators.required, Validators.pattern("[0-2]?[0-9]?")]],
       MinutosEntrega: ["", [Validators.required, Validators.pattern("[0-5]?[0-9]")]]
@@ -212,6 +220,7 @@ export class ComerciosComponent implements OnInit {
         this.FormReg.controls['NumTarjeta'].setValue("");
         this.FormReg.controls["NombreTitular"].setValue("");
         this.FormReg.controls["ApellidoTitular"].setValue("");
+        this.FormReg.controls["FechaVencimiento"].setValue("10/2020");
         this.FormReg.controls["Cvc"].setValue(0);
         this.FormReg.controls["HoraEntrega"].setValue(0);
         window.scroll(0, 0); // ir al incio del scroll
@@ -221,6 +230,7 @@ export class ComerciosComponent implements OnInit {
     else{
       this.FormReg.controls['Pago'].setValue(1000);
       this.FormReg.controls['Vuelto'].setValue(100);
+      this.FormReg.controls["HoraEntrega"].setValue(0);
 
       var confirmacion = confirm("¿Confirmar Pedido?")
       if(this.FormReg.invalid && confirmacion)
