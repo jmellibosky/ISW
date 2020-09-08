@@ -203,6 +203,7 @@ export class ComerciosComponent implements OnInit {
       this.FormReg.controls['NumTarjeta'].setValue("1111111111111");
       this.FormReg.controls["NombreTitular"].setValue("abcd");
       this.FormReg.controls["ApellidoTitular"].setValue("abcd");
+      this.FormReg.controls["FechaVencimiento"].setValue("10/2020");
       this.FormReg.controls["Cvc"].setValue(123);
       this.FormReg.controls["HoraEntrega"].setValue(1);
 
@@ -220,7 +221,7 @@ export class ComerciosComponent implements OnInit {
         this.FormReg.controls['NumTarjeta'].setValue("");
         this.FormReg.controls["NombreTitular"].setValue("");
         this.FormReg.controls["ApellidoTitular"].setValue("");
-        this.FormReg.controls["FechaVencimiento"].setValue("10/2020");
+        this.FormReg.controls["FechaVencimiento"].setValue("");
         this.FormReg.controls["Cvc"].setValue(0);
         this.FormReg.controls["HoraEntrega"].setValue(0);
         window.scroll(0, 0); // ir al incio del scroll

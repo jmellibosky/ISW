@@ -263,7 +263,9 @@
 
      <!--campo FechaVencimiento-->
      <div class="form-group row" *ngIf="seleccionPago == '2'">
-        <label class="col-form-label col-sm-2 col-sm-offset-2">Fecha de Vencimiento</label>
+        <label class="col-form-label col-sm-2 col-sm-offset-2">Fecha de Vencimiento
+            <span class="text-danger">*</span>
+        </label>
         <div class="col-sm-6">
             <input class="form-control"
                         name="FechaVencimiento" formControlName="FechaVencimiento"
